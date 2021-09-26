@@ -1,0 +1,21 @@
+.Book img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+ width: 300px;
+ height: 400px;
+}
+.Book{
+    padding-left: 5px;
+    border: 2px solid firebrick;
+    background-color: darkcyan;
+    box-shadow: 5px  gray;
+}
+
+.Book button{
+    width: 70%;
+    padding: 5px 10px;
+    background-color: darksalmon;
+    border: 3px solid darkslategrey;
+    border-radius: 3px;
+}
