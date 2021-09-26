@@ -5,7 +5,7 @@ import './Books.css'
 
 const Books = (props) => {
     const icon = <FontAwesomeIcon icon={faShoppingCart} />
-    const {name, writter, price,img,genre,publisher} = props.book
+    const { name, writter, price, img, genre, publisher } = props.book
     return (
         <div className='Book'>
             <img src={img} alt="" />

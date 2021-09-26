@@ -10,12 +10,12 @@ const data = [
     },
     {
         key: '0002',
-        name: ' Madame BovaryGustave Flaubert',
-        writter: 'Gustave Flaubert',
-        price: 700,
-        img: 'https://m.media-amazon.com/images/I/51uSNhBMiaL.jpg',
-        genre: 'Realist novel',
-        publisher: 'Revue de Paris'
+        name: ' Lolita',
+        writter: 'Vladimir Nabokov',
+        price: 420,
+        img: 'https://images-na.ssl-images-amazon.com/images/I/31vVNvayAzS._SX322_BO1,204,203,200_.jpg',
+        genre: 'Novel',
+        publisher: 'Olympia Press'
 
     },
     {
@@ -40,24 +40,25 @@ const data = [
     },
     {
         key: '0005',
-        name: ' Lolita',
-        writter: 'Vladimir Nabokov',
-        price: 420,
-        img: 'https://images-na.ssl-images-amazon.com/images/I/31vVNvayAzS._SX322_BO1,204,203,200_.jpg',
-        genre: 'Novel',
-        publisher: 'Olympia Press'
+        name: ' Madame BovaryGustave Flaubert',
+        writter: 'Gustave Flaubert',
+        price: 700,
+        img: 'https://m.media-amazon.com/images/I/51uSNhBMiaL.jpg',
+        genre: 'Realist novel',
+        publisher: 'Revue de Paris'
 
     },
     {
         key: '0006',
-        name: 'Middlemarch',
-        writter: 'George Eliot',
-        price: 500,
-        img: 'https://images-na.ssl-images-amazon.com/images/I/51EkE0xDzRL.jpg',
-        genre: 'Novel',
-        publisher: 'William Blackwood and Sons'
+        name: ' Moby Dick',
+        writter: 'Herman Melville',
+        price: 690,
+        img: 'https://m.media-amazon.com/images/I/411a8Moy1mL.jpg',
+        genre: 'Adventure fiction',
+        publisher: 'Richard Bentley (England) Harper & Brothers (US)'
 
     },
+    
     {
         key: '0007',
         name: 'The Adventures of Huckleberry Finn',
@@ -65,19 +66,20 @@ const data = [
         price: 430,
         img: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388463189l/19374.jpg',
         genre: 'Picaresque novel',
-        publisher: 'Chatto & Windus / Charles L. Webster And Company'
+        publisher: 'Charles L. Webster And Company'
 
     },
     {
         key: '0008',
-        name: ' In Search of Lost Time',
-        writter: 'Marcel Proust',
-        price: 640,
-        img: 'https://m.media-amazon.com/images/I/511yf0UGNlL.jpg',
-        genre: 'Modernist',
-        publisher: 'Grasset and Gallimard'
+        name: ' Great Expectations',
+        writter: 'Charles Dickens',
+        price: 450,
+        img: 'https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/aae6957ee_185970.jpg',
+        genre: 'Novel',
+        publisher: 'Chapman & Hall'
 
     },
+    
     {
         key: '0009',
         name: ' Hamlet',
@@ -90,14 +92,15 @@ const data = [
     },
     {
         key: '0010',
-        name: ' Moby Dick',
-        writter: 'Herman Melville',
-        price: 690,
-        img: 'https://m.media-amazon.com/images/I/411a8Moy1mL.jpg',
-        genre: 'Adventure fiction',
-        publisher: 'Richard Bentley (England) Harper & Brothers (US)'
+        name: 'Middlemarch',
+        writter: 'George Eliot',
+        price: 500,
+        img: 'https://images-na.ssl-images-amazon.com/images/I/51EkE0xDzRL.jpg',
+        genre: 'Novel',
+        publisher: 'William Blackwood and Sons'
 
     },
+    
     {
         key: '0011',
         name: ' Don Quixote',
@@ -120,12 +123,12 @@ const data = [
     },
     {
         key: '0013',
-        name: ' Great Expectations',
-        writter: 'Charles Dickens',
-        price: 450,
-        img: 'https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/aae6957ee_185970.jpg',
-        genre: 'Novel',
-        publisher: 'Chapman & Hall'
+        name: ' In Search of Lost Time',
+        writter: 'Marcel Proust',
+        price: 640,
+        img: 'https://m.media-amazon.com/images/I/511yf0UGNlL.jpg',
+        genre: 'Modernist',
+        publisher: 'Grasset and Gallimard'
 
     }
 ]

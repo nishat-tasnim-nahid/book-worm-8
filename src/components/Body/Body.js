@@ -4,35 +4,35 @@ import Cart from '../Cart/Cart';
 import './Body.css'
 
 const Body = () => {
-    const [books,setBooks] = useState([]);
-    const [cart,setCart] = useState([])
+    const [books, setBooks] = useState([]);
+    const [cart, setCart] = useState([])
 
-    useEffect(()=>{
+    useEffect(() => {
         fetch('./data.JSON')
-        .then(res => res.json())
-        .then(data => setBooks(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setBooks(data))
+    }, [])
 
-    const handleAddedCart = (book)=>{
-       const newCart = [...cart,book]
-       setCart(newCart)
-      
+    const handleAddedCart = (book) => {
+        const newCart = [...cart, book]
+        setCart(newCart)
+
     }
 
     return (
         <div className='Body-container'>
             <div className='Books-part'>
                 {
-                    books.map(book=> <Books 
+                    books.map(book => <Books
                         key={book.key}
                         book={book}
-                        handleAddedCart = {handleAddedCart}
-                        ></Books>)
+                        handleAddedCart={handleAddedCart}
+                    ></Books>)
                 }
             </div>
             <div className='Cart-container'>
                 <Cart cart={cart}></Cart>
-                
+
             </div>
         </div>
     );
