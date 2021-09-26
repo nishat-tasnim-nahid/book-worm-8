@@ -3,17 +3,15 @@
     grid-template-columns: 4fr 1fr;
     margin: 0px 10px;
     margin-top: 20px;
-    border: 2px solid seagreen;
 }
 .Books-part{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 20px;
     grid-column-gap: 20px;
-   
-
 }
 .Cart-container{
-    border: 2px solid yellowgreen;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }

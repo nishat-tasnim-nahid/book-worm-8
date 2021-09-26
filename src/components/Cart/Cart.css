@@ -1,0 +1,19 @@
+.Cart h2{
+    text-align: center;
+}
+.Cart{
+    border:2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgb(47, 89, 104);
+    color:rgb(11, 27, 27);
+}
+.Cart button{
+    color: white;
+    width: 70%;
+    padding: 5px 10px;
+    background-color: rgb(8, 42, 56);
+   border:2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
